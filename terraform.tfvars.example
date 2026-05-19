@@ -1,0 +1,11 @@
+# ###############################################################################
+# terraform.tfvars.example - Valores de exemplo para provisionamento de filial
+# Copie este arquivo, renomeie para "terraform.tfvars" e preencha as variáveis abaixo.
+# ###############################################################################
+
+loja_id    = "000"                       # Número da filial com 3 ou 4 dígitos (ex: 059 ou 0151)
+loja_nome  = "NomeDaLoja"                # Nome da unidade/filial (ex: Colombia)
+estado_uf  = "UF"                        # Sigla do estado (ex: PR)
+device_mac = "00:00:00:00:00:00"         # MAC address do UDM Pro da loja
+switch_mac = ""                          # MAC address do Switch da loja (opcional)
+ap_mac     = ""                          # MAC address do AP da loja (opcional)
